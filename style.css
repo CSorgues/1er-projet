@@ -1,0 +1,687 @@
+@charset "UTF-8";
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+body {
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  /*début de header*/
+  /*fin de header*/
+  /*fin de main*/
+  /*début de footer*/
+  /*fin de footer*/
+}
+
+body header {
+  width: 100%;
+  background-color: #006863;
+}
+
+body header #entete {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: snow;
+}
+
+@media screen and (max-width: 375px) {
+  body header #entete {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+body header #entete p {
+  font-size: 1.2em;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  body header #entete p {
+    width: 70%;
+    padding-right: 0;
+  }
+}
+
+body header #entete a {
+  display: none;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  body header #entete a {
+    display: block;
+    width: 20%;
+    font-size: 2em;
+  }
+}
+
+body header #entete #search {
+  padding-right: 30px;
+}
+
+body header #entete #search input {
+  color: snow;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+body header #entete #search button {
+  background-color: snow;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 375px) {
+  body header #entete #search {
+    display: none;
+  }
+}
+
+body header #entete #langue a {
+  color: snow;
+  text-decoration: none;
+}
+
+body header #entete #langue .fr {
+  border-right: 1px solid snow;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 375px) {
+  body header #entete #langue {
+    display: none;
+  }
+}
+
+body header #principale {
+  background-color: snow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-block: 20px;
+}
+
+body header #principale #logo {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 375px) {
+  body header #principale #logo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body header #principale #logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body header #principale #logo img {
+    width: 65%;
+    height: auto;
+    margin: auto;
+  }
+}
+
+body header #principale #desktop {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body header #principale #desktop #menu {
+  width: 70%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+}
+
+body header #principale #desktop #menu a {
+  text-decoration: none;
+  color: #262626;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 375px) {
+  body header #principale #desktop #menu {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 40px 20px 0 0;
+    background-color: white;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body header #principale #desktop {
+    position: absolute;
+    left: 0;
+    display: none;
+    top: 68px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body header #principale {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+body main {
+  /*début de section une*/
+  /*fin de section une*/
+  /*début de section deux*/
+  /*fin de section deux*/
+  /*début de section trois*/
+  /*fin de section trois*/
+}
+
+body main #une {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(image/VuePanoramiquegrandangle.jpg);
+  height: 675px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 376px) {
+  body main #une {
+    height: 150px;
+  }
+}
+
+body main #une h1 {
+  width: 65%;
+  text-align: center;
+  color: snow;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 1em;
+  font-size: 3.4em;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #une h1 {
+    width: 100%;
+    font-size: 1.3em;
+    word-spacing: 0em;
+    padding-top: 17px;
+  }
+}
+
+body main #une h2 {
+  width: 78%;
+  text-align: center;
+  color: snow;
+  font-style: italic;
+  font-size: 2.3em;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 376px) {
+  body main #une h2 {
+    width: 100%;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+  }
+}
+
+body main #une h2 span {
+  text-transform: capitalize;
+}
+
+body main #une #bouton {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 376px) {
+  body main #une #bouton {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+body main #une #bouton button {
+  background-color: #ffd500;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border: none;
+  border-radius: 50px;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #une #bouton button {
+    margin: 0;
+    font-size: 0.7em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+body main #deux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #deux #resume {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #resume {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 30px;
+  }
+}
+
+body main #deux #resume p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.9em;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: #262626;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #resume p {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #resume p br {
+    display: none;
+  }
+}
+
+body main #deux #resume .barre {
+  border-right: 4px solid #ffd500;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #resume .barre {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 4px solid #ffd500;
+    padding-bottom: 23px;
+    margin-bottom: 0px;
+  }
+}
+
+body main #deux #resume #extension {
+  border-right: 4px solid #ffd500;
+  padding-right: 40px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #resume #extension {
+    border-right: none;
+    padding-right: 0px;
+    border-bottom: 4px solid #ffd500;
+    padding-bottom: 23px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
+}
+
+body main #deux #horaires {
+  font-style: italic;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: #262626;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #horaires {
+    width: 85%;
+    text-align: center;
+    font-size: 1em;
+  }
+}
+
+body main #deux #bouton2 {
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #bouton2 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+}
+
+body main #deux #bouton2 button {
+  background-color: #006863;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border: none;
+  border-radius: 50px;
+  color: snow;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 376px) {
+  body main #deux #bouton2 button {
+    margin: 0;
+    font-size: 0.8em;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+body main #trois {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #52c1c8;
+  padding-block: 75px;
+}
+
+@media screen and (max-width: 376px) {
+  body main #trois {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 30px;
+  }
+}
+
+body main #trois iframe {
+  width: 42%;
+}
+
+@media screen and (max-width: 376px) {
+  body main #trois iframe {
+    width: 80%;
+    height: 212px;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+}
+
+body main #trois p {
+  width: 25%;
+  background-color: snow;
+  border: 4px solid #ffd500;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: -webkit-center;
+  word-spacing: 0.1em;
+  line-height: 1.7em;
+}
+
+@media screen and (max-width: 376px) {
+  body main #trois p {
+    width: 80%;
+    margin: auto;
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+body footer {
+  background-color: #009790;
+}
+
+body footer #sup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+  color: snow;
+}
+
+@media screen and (max-width: 376px) {
+  body footer #sup {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+body footer #sup h3 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+body footer #sup ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+body footer #sup ul a {
+  color: snow;
+  text-decoration: none;
+}
+
+body footer #sup #copain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 376px) {
+  body footer #sup #copain {
+    display: none;
+  }
+}
+
+body footer #sup #copain .verdon {
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 376px) {
+  body footer #sup #infosprat ul {
+    display: none;
+  }
+}
+
+body footer #sup #infosprat a {
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  line-height: 2.5em;
+}
+
+body footer #sup #bouton3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 1%;
+}
+
+body footer #sup #bouton3 input {
+  color: #bebcbc;
+  border: none;
+  padding-left: 10px;
+}
+
+body footer #sup #bouton3 button {
+  background-color: #bebcbc;
+  text-transform: uppercase;
+  font-weight: 900;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 376px) {
+  body footer #sup #social {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+body footer #sup #reseaux {
+  padding-top: 7%;
+}
+
+body footer #sup #reseaux ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer #sup #adresse p {
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  line-height: 1.6em;
+}
+
+body footer #sup #adresse #first {
+  padding-top: 8px;
+}
+
+body footer #sup #adresse #third i {
+  padding-right: 6px;
+}
+
+body footer #inf {
+  text-align: center;
+  color: snow;
+  background-color: #006863;
+}
+/*# sourceMappingURL=style.css.map */
